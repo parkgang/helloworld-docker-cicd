@@ -2,6 +2,7 @@ version: "3.8"
 
 services:
   blue-green-server:
+    container_name: blue-green-server-green
     image: tomcat-test:practice
     ports:
       - "10003:8080"
