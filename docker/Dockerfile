@@ -5,7 +5,7 @@ FROM tomcat
 RUN apt-get update
 
 # 파일 추가
-ADD ./docker/index.html /usr/local/tomcat/webapps/ROOT
+ADD ./docker/index.html /usr/local/tomcat/webapps/ROOT/index.html
 
 # [tomcat 데몬이 실행되고 나면 죽어버리는 것을 방지하기 위함](https://skaqud.github.io/2016/08/21/Build-Docker-Container/)
 CMD ["catalina.sh","run"]
