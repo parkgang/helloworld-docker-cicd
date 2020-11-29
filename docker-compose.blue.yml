@@ -1,7 +1,0 @@
-version: "3.3"
-
-services:
-  blue-green-server:
-    image: tomcat-test:practice
-    ports:
-      - "10002:8080"
