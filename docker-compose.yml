@@ -1,9 +1,9 @@
 version: "3.3"
 
 services:
-  tomcat:
+  tomcat-server:
     build: .
+    image: tomcat-cicd-image:practice
     container_name: tomcat-cicd
     ports:
       - "8888:8080"
-# image: aaaa:bbbb
