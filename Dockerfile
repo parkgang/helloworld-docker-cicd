@@ -1,7 +1,7 @@
 # 사용하는 이미지
 FROM tomcat
 
-# cmd 실행
+# 해당 이미지 shell command 실행
 RUN apt-get update
 
 # 파일 추가(하위 디렉토리만 가능함)
